@@ -9,11 +9,11 @@ import { useStateValue } from './StateProvider';
 
 
 function App() {
-  const [{user}, dispatch] = useStateValue();
+      const [{user}, dispatch] = useStateValue();
 
   return (
     <div className="app">
-      <Router>
+     {/* <Router>
         {!user?(<Login />):(
           <>
             <Header />
@@ -33,9 +33,9 @@ function App() {
           </>
         )}
         
-      </Router>
-           
+      </Router> */}    
     </div>
+
   );
 }
 

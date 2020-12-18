@@ -30,7 +30,7 @@ function Login() {
                <h1>Sign in to Programmer Slack</h1>
                <p>programmers.slack.com</p>
                 <Button onClick={signIn}>Sign In With Google</Button>
-            </div> 
+            </div>
         </div>
     )
 }
